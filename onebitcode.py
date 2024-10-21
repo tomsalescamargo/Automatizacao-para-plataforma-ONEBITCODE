@@ -60,6 +60,7 @@ while True:
         if classes < 1:
             print('Por favor, insira um número inteiro, maior que 0.')
             print()
+            raise ValueError
         else:
             print("INICIANDO A AUTOMAÇÃO, VÁ PARA A PÁGINA DA AULA!")
             # Realiza os cliques
